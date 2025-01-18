@@ -25,7 +25,8 @@ id_200 x_200 x'_200 y_200 y'_200
 
 ## __<center>Project Workflow</center>__
 
-**Squential-Scan Based Method:** 
+1. **Squential-Scan Based Method:** 
+
 Implementing the sequential scan method to process spatial range queries. Reading points from dataset and 200 set of queries , performs a sequential scan to count points within each query range, and outputs the results, along with total and average query processing times, to [`Squential_output.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Squential_output.txt).
 - Total time: 3.33951997756958 seconds
 - Average time per query: 0.0166975998878479 seconds
