@@ -5,9 +5,9 @@
 
 Implementing an R-tree data structure to optimize spatial querying of 2D points, comparing its efficiency to sequential scanning and incorporating a divide-and-conquer approach to further enhance performance.
 
-## __<center>Dataset and Query Specification</center>__
+## __<center>Dataset and Range Query</center>__
 - **Dataset:** A collection of 2D points, each with unique IDs and (x, y) coordinates, provided in [`R_tree_Construction.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/R_tree_construction.txt).
-``` python
+``` 
 id_1 x_1 y_1
 id_2 x_2 y_2
 ...
@@ -15,7 +15,13 @@ id_n x_n y_n
 ```
 
 
-- **Range Queries:** Set of 200 queries, each specifying a rectangular range, provided in [`200Range.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/200Range.txt).
+- **Range Query:** Set of 200 queries, each specifying a rectangular range [x, x'] x [y, y'], provided in [`200Range.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/200Range.txt).
+``` 
+id_1 x_1 x'_1 y_1 y'_1
+id_2 x_2 x'_2 y_2 y'_2
+...
+id_200 x_200 x'_200 y_200 y'_200
+```
 
 ## __<center>Project Workflow</center>__
 
