@@ -99,8 +99,8 @@ with open('Squential_output.txt', 'w') as f:
     f.write('Points count: ' + "\n")
     for count in results:
         f.write(str(count) + '\n')
-</details>
 ```
+<details>
 
 ### **R-Tree Based Method:** 
 Building R-tree structures to enhance query efficiency. Reading points from dataset and 200 set of queries. Then the data is split into two sections to contstruct two seperate R-tree using point-based division. For each specified range, it traverses the respective R-tree to count the points within these ranges, outputting the totals to [`R_tree_output.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Rtree_output.txt).
