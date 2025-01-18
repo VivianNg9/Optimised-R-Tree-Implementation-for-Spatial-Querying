@@ -25,7 +25,7 @@ id_200 x_200 x'_200 y_200 y'_200
 
 ## __<center>Project Workflow</center>__
 
-### **Squential-Scan Based Method:** 
+### 1. **Squential-Scan Based Method:** 
 
 Implementing the sequential scan method to process spatial range queries. Reading points from dataset and 200 set of queries , performs a sequential scan to count points within each query range, and outputs the results, along with total and average query processing times, to [`Squential_output.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Squential_output.txt).
 - Total time: 3.33951997756958 seconds
@@ -102,7 +102,7 @@ with open('Squential_output.txt', 'w') as f:
 ```
 </details>
 
-### **R-Tree Based Method:** 
+### 2. **R-Tree Based Method:** 
 Building R-tree structures to enhance query efficiency. Reading points from dataset and 200 set of queries. Then the data is split into two sections to contstruct two seperate R-tree using point-based division. For each specified range, it traverses the respective R-tree to count the points within these ranges, outputting the totals to [`R_tree_output.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Rtree_output.txt).
 - The time-cost of building up the R-Tree is: 18.826796770095825 seconds.
 - The query processing time is: 0.02881312370300293 seconds.
@@ -418,7 +418,7 @@ if __name__ == '__main__':
 ```
 </details>
 
-### **Divide-and-Conquer:** 
+### 3. **Divide-and-Conquer:** 
 In Divide and Conquer, the  point  set  is  divided  into  two  halves,  and  then  two separate R-trees are constructed for these subsets, allowing for more efficient organization and query processing of spatial data. [`R_tree_DC_output.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Rtree_DC_output.txt).
 - The time-cost of building up the R-Tree is: 19.630218982696533 seconds.
 - The query processing time is: 0.018118858337402344 seconds.
