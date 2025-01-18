@@ -1,20 +1,30 @@
- # __<center>R-tree Implementation Project</center>__
+ # __<center>Optimsed R-Tree Implementation for Spatial Querying</center>__
 
 
-## Overview
-The project involves creating an R-tree for efficient spatial querying of 2D points. It emphasizes the correct application of R-trees in answering range queries and the comparative efficiency against sequential scanning.
+## __<center>Overview</center>__
 
-## Dataset and Query Specification
-- **Dataset:** A collection of 2D points, each with unique IDs and coordinates, provided in [`R_tree_Construction.txt`](https://github.com/VivianNg9/Data-Mining/blob/main/R-tree/R_tree_construction.txt).
-- **Range Queries:** Set of 200 queries, each specifying a rectangular range, provided in [`200Range.txt`](https://github.com/VivianNg9/Data-Mining/blob/main/R-tree/200Range.txt).
+Implementing an R-tree data structure to optimize spatial querying of 2D points, comparing its efficiency to sequential scanning and incorporating a divide-and-conquer approach to further enhance performance.
 
-## Environment and Languages
-- **OS Environment:** MacOS
-- **CPU:** Apple M2 Pro
-- **RAM:** 16GB
-- **Programming Language:** Python
-- **Python Version:** 3.11.4
-- **Development Tool:** Visual Studio Code
+## __<center>Dataset and Query Specification</center>__
+- **Dataset:** A collection of 2D points, each with unique IDs and (x, y) coordinates, provided in [`R_tree_Construction.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/R_tree_construction.txt).
+``` python
+id_1 x_1 y_1
+id_2 x_2 y_2
+...
+id_n x_n y_n
+```
+
+
+- **Range Queries:** Set of 200 queries, each specifying a rectangular range, provided in [`200Range.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/200Range.txt).
+
+## __<center>Project Workflow</center>__
+
+
+
+## __<center>Analysing the working of R-Tree</center>__
+
+
+
 
 ## Key Components of the Project
 - **Sequential Scan:** Implemented in [`Sequential_Scan.py`](https://github.com/VivianNg9/Data-Mining/blob/main/R-tree/Sequential_Scan.py), this script processes spatial range queries sequentially and outputs the results.
