@@ -752,6 +752,20 @@ if __name__ == '__main__':
 <details>
 
 ## __<center>Analysing the working of R-Tree</center>__
+Example **10 data points**: 
+A(1,3)
+B(4,1)
+C(2,5) 
+D(5,3)
+E(7,2) 
+F(8,4)
+G(3,6)
+H(0,7)
+I(10,4)
+K(8,1)
+
+**Query**: (5, 2, 9, 6) 
+
 
 
 
