@@ -27,8 +27,10 @@ id_200 x_200 x'_200 y_200 y'_200
 
 **SEQUENTIAL SCAN:** 
 
-<details>
-  <summary>Click to view the full code</summary>
+```html
+<pre style="max-height: 300px; overflow-y: auto;">
+<code>
+import time
 
 ```python
 import time
@@ -88,7 +90,7 @@ with open('Squential_output.txt', 'w') as f:
     f.write('Points count: ' + "\n")
     for count in results:
         f.write(str(count) + '\n')
-</details>
+
 ```
 
 
