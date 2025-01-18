@@ -770,9 +770,11 @@ K(8,1)
 ### 1. R-Tree Establishment 
 
 **Final R-Tree**
+
 ![R-Tree](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/R-tree.png)
 
 **Bounding Boxes** 
+
 ![Bounding Boxes](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/Bounding_boxes.png)
 
 
