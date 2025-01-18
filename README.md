@@ -26,9 +26,11 @@ id_200 x_200 x'_200 y_200 y'_200
 ## __<center>Project Workflow</center>__
 
 **SEQUENTIAL SCAN:** 
-```
-<pre style="max-height: 300px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; background: #f9f9f9;">
-<code>
+
+<details>
+  <summary>Click to view the full code</summary>
+
+```python
 import time
 
 # Load the points from the dataset file
@@ -46,6 +48,7 @@ with open("R_tree_construction.txt", "r") as file:
                 "y": int(data[2])    
             }
         )
+
 
 # Load the range queries
 queries = [] # Create a blank list to store query ranges
@@ -85,10 +88,7 @@ with open('Squential_output.txt', 'w') as f:
     f.write('Points count: ' + "\n")
     for count in results:
         f.write(str(count) + '\n')
-</code>
-</pre>
-
-```
+</details> ```
 
 
 ## __<center>Analysing the working of R-Tree</center>__
