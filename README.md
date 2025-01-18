@@ -90,7 +90,8 @@ with open('Squential_output.txt', 'w') as f:
     f.write('Points count: ' + "\n")
     for count in results:
         f.write(str(count) + '\n')
-
+</code>
+</pre>
 ```
 
 
