@@ -26,8 +26,7 @@ id_200 x_200 x'_200 y_200 y'_200
 ## __<center>Project Workflow</center>__
 
 **SEQUENTIAL SCAN:** 
-
-```html
+```
 <pre style="max-height: 300px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; background: #f9f9f9;">
 <code>
 import time
@@ -47,7 +46,6 @@ with open("R_tree_construction.txt", "r") as file:
                 "y": int(data[2])    
             }
         )
-
 
 # Load the range queries
 queries = [] # Create a blank list to store query ranges
