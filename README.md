@@ -5,6 +5,9 @@
 
 Implementing an R-tree data structure to optimize spatial querying of 2D points, comparing its efficiency to sequential scanning and incorporating a divide-and-conquer approach to further enhance performance.
 
+**Report [`Report.pdf`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Report.pdf):**
+   A comprehensive document detailing program functions, execution requirements, and a thorough analysis of R-Tree's construction and searching mechanism.
+   
 ## __<center>Dataset and Range Query</center>__
 - **Dataset:** A collection of 2D points, each with unique IDs and (x, y) coordinates, provided in [`R_tree_Construction.txt`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/R_tree_construction.txt).
 ``` 
@@ -800,8 +803,7 @@ x1 = 5, y1= 2, x2 = 9, y2 = 6
 - Points in the "Left" subset are not within the query range.
 - Evaluating the "Right" subset, data points D (5, 3), E (7, 2), and F (8, 4) are encapsulated by the query range.
 
-**Report [`Report.pdf`](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/Report.pdf):**
-   A comprehensive document detailing program functions, execution requirements, and a thorough analysis of R-Tree's construction and searching mechanism.
+
 
 
 
