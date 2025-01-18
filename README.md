@@ -88,7 +88,8 @@ with open('Squential_output.txt', 'w') as f:
     f.write('Points count: ' + "\n")
     for count in results:
         f.write(str(count) + '\n')
-</details> ```
+</details>
+```
 
 
 ## __<center>Analysing the working of R-Tree</center>__
