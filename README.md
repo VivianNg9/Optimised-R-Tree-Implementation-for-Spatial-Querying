@@ -769,10 +769,8 @@ K(8,1)
 
 ### 1. R-Tree Establishment 
 **1.1. R-Tree Insertation**
+_<center>Final R-Tree</center>_
 
-Take B= 4 we have 4 points in each node
-- Insert A(1,3) and B(4,1)
-![InsertAB](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/InsertAB.png)
 
 
 
