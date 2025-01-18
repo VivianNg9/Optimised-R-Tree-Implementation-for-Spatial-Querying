@@ -415,8 +415,8 @@ class RTree(object): #R tree class
 
 if __name__ == '__main__':
     main()
-</details>
 ```
+</details>
 
 ## __<center>Analysing the working of R-Tree</center>__
 
