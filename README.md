@@ -777,6 +777,34 @@ K(8,1)
 
 ![Bounding Boxes](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/Bounding_boxes.png)
 
+### 2. Sequential-Scan based search 
+For each point, check if its “x” coordinate lies between “x1” and  its “y” coordinate lies between “y1” and “y2” of the query rectangle. If the condition is met, increment the count by 1.
+=> D (5, 3), E (7, 2) and F (8, 4) lie within the query box. Therefore, the total count of points within the query box is 3. 
+
+### 3. R-Tree based search
+
+![R-Tree_ex](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/R-tree_ex.png)
+
+The R-tree-based search provides an optimised approach to spatial querying, as illustrated by the Query Range (red box) delineated by:
+x1 = 5, y1= 2, x2 = 9, y2 = 6
+=> D (5,3), E (7, 2) and F (8, 4) lie within the query range.
+
+=> Thus, when using the R-tree-based search, the algorithm efficiently identifies the bounding boxes (MBRs) that intersect with the query range. By examining only the points within these intersecting MBRs, we've quickly identified that points D, E, and F are the ones that lie within the given query range. This process showcases the efficiency and speed advantage of using an R-tree based search for spatial queries compared to a full Sequential based search across all points.
+
+### 3. Divide-and-Conquer in R-Tree based search 
+
+![DC](https://github.com/VivianNg9/Optimised-R-Tree-Implementation-for-Spatial-Querying/blob/main/image/DC.png)
+
+- Points in the "Left" subset are not within the query range.
+- Evaluating the "Right" subset, data points D (5, 3), E (7, 2), and F (8, 4) are encapsulated by the query range.
+
+
+
+
+
+
+
+
 
 
 
